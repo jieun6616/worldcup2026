@@ -4,7 +4,7 @@ import requests
 import base64
 from datetime import datetime, timezone, timedelta
 from jinja2 import Template
-
+ 
 API_KEY   = os.environ.get("FOOTBALL_API_KEY", "")
 BASE_URL  = "https://api.football-data.org/v4"
 HEADERS   = {"X-Auth-Token": API_KEY}
